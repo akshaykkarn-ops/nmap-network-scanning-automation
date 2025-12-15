@@ -1,3 +1,4 @@
+![License](https://img.shields.io/badge/Status-Complete-brightgreen)
 # 🔐 Networking Fundamentals, Nmap Scanning & Python Automation
 
 ## 📌 Overview
