@@ -1,31 +1,50 @@
-![License](https://img.shields.io/badge/Status-Complete-brightgreen)
-# 🔐 Networking Fundamentals, Nmap Scanning & Python Automation
+# Nmap Network Scanning Automation 🔍
 
-## 📌 Overview
-This project demonstrates hands-on experience with network reconnaissance, service enumeration, and automation using Python. The objective was to perform different types of Nmap scans, analyze the results for potential security risks, and automate the scanning process using the python-nmap library.
+Role Target: **SOC Analyst / Security Operations**
 
-All activities were performed in an authorized lab environment.
-
----
-
-## 🧰 Tools & Technologies
-- Operating System: Linux
-- Nmap: v7.80
-- Python: 3.8.10
-- Library: python-nmap
+This project automates network reconnaissance and scanning tasks
+using Nmap to identify live hosts, open ports, and exposed services.
 
 ---
 
-## 🌐 Networking Concepts Covered
-- IP addressing and host discovery  
-- TCP vs UDP protocols  
-- Common service ports and exposure  
-- Attack surface identification  
+## 🎯 Objective
+To demonstrate how SOC analysts use automated scanning to:
+- Discover network assets
+- Identify exposed services
+- Support vulnerability assessment workflows
 
 ---
 
-## 🔍 Nmap Scans Performed
+## 🧰 Tools Used
+- Nmap
+- Bash / Python scripting
+- Linux networking utilities
 
-### TCP Connect Scan
-```bash
-nmap -sT <target-ip>
+---
+
+## 🔍 What This Project Does
+- Automates Nmap scans across target networks
+- Performs:
+  - Host discovery
+  - Port scanning
+  - Service version detection
+- Outputs scan results for analysis
+
+---
+
+## 🛠️ Why This Matters for SOC
+Network scanning is a foundational SOC task used for:
+- Attack surface discovery
+- Incident investigation
+- Vulnerability validation
+
+This project demonstrates practical exposure to
+network reconnaissance techniques used in security operations.
+
+---
+
+## 🚀 Skills Demonstrated
+- Network enumeration
+- Scan automation
+- Linux command-line proficiency
+- Security tooling fundamentals
